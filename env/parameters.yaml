@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:palmcurly/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:palmcurly/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:palmcurly/prow:hmacToken
+segmentWriteKey: vault:palmcurly:segmentWriteKey
